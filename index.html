@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Crie e compartilhe<br>seu Evento.</h1>
+        <h3>O primeiro passo, é preencher esse formulário de inscrição.</h3>
+    </header>
+    <body>
+        <main>
+            <h2>Informações do Evento</h2>
+
+            <label for="titulo">Título do Evento <span>(mínimo 8 caracteres)</span></label>
+            <input type="text" name="titulo" id="titulo">
+            <br>
+            
+           <label for="link-evento"> Link do Evento <span>(comece com https://)</span></label>
+            <input type="text" name="link-evento" id="link-evento">
+
+            <br>
+
+            <label for="cell"> Whatsapp para contato <span>(somente números)</span></label>
+            <input type="number" name="cell" id="cell">
+
+            <br>
+
+            <label for="extra">Informações  extras</label>
+            <textarea id="extra"></textarea>
+
+            <br>
+
+            <label for="categoria">Categoria</label>
+
+            <br>
+            <select>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            
+
+            <br>
+
+            <h2>Privacidade</h2>
+
+            <br>
+
+            <label for="email">E-mail do administrador <span>(digite um email válido)</span></label>
+            <input type="email" name="email" id="email">
+
+            <br>
+
+            <label for="senha"> Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
+            <input type="password" name="senha" id="senha">
+
+            <br>
+
+            <input type="checkbox" name="checkbox" id="checkbox"> <label for="checkbox">Evento</label> privado
+
+            <br>
+
+            <h2>Dia e hora</h2>
+            <br>
+            <input type="date" name="Data" id="data">
+            <input type="time" name="Das" id="">
+            <input type="time" name="Até" id="">
+            <br>
+            <button type="submit">Salvar evento</button>
+        </main>
+    </body>
+</body>
+</html>
